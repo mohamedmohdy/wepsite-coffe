@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Marhey&family=Oswald:wght@300;400&family=Poppins:wght@600&family=Reem+Kufi&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parint-contanir-page {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+header {
+    height: 110vh;
+    width: 100%;
+    background-image: url("header-bg.jpg.webp");
+    background-size: cover;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    background: rgba(20, 2, 0, 0.8);
+    padding-bottom: 10px;
+    align-items: center;
+
+
+}
+
+nav .linkes ul {
+    display: flex;
+}
+
+nav .linkes ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav .linkes ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+header .intro-text {
+    margin-left: 15%;
+    color: white;
+    margin-top: 8%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+header .intro-text p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .intro-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header .intro-text button {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 8px;
+    width: 125px;
+    font-family: "Poppins", sans-serif;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    border: none;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+header .intro-text button:is(:hover , :focus) {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    padding-right: 5px;
+    letter-spacing: 2px;
+    outline-offset: 3px;
+}
+
+nav .linkes ul li a:hover {
+    padding-right: 5px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: rgb(112, 20, 10);
+}
+
+.licens .video video {
+    width: 450px;
+    height: 270px;
+    margin-left: 252px;
+    margin-top: 15px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.licens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.licens .iuncide-text h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b68834;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.licens .iuncide-text h2 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.licens .iuncide-text p {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 5px;
+
+    font-size: 18px;
+}
+
+.licens .iuncide-text img {
+    margin-top: 20px;
+}
+
+.licens .iuncide-text {
+    margin-left: 30px;
+}
+
+.licens {
+    margin-bottom: 50px;
+}
+
+.heading {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+.heading:first-child {
+    font-size: 20px;
+}
+
+.heading :nth-child(2) {
+    font-size: 13px;
+}
+
+.box-model {
+    display: grid;
+    /* grid-row: 4; */
+    grid-template-columns: auto auto auto;
+    margin: 0px 40px 0px 40px;
+
+}
+
+.box-model .box {
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 10px 30px 0px rgba(237, 189, 100, 0.5);
+    border-radius: 10px;
+    padding-top: 20px;
+    transition: 1s ease;
+    /*border: solid 1px rgb(212, 205, 205);
+    */
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.box-model .box .caption {
+    margin-bottom: 10px;
+}
+
+.box-model .box .caption span {
+    float: right;
+    transition: 1s ease;
+    background-color: transparent;
+}
+
+/* .box-model .box .caption:first-child {
+    font-weight: bold;
+} */
+.box-model .box .caption span:hover {
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+    /* border-radius: 10px;
+    padding-top: 20px; */
+    /* border: solid 1px rgb(212, 205, 205); */
+}
+
+.box-model .box .text p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400px;
+    font-size: 15px;
+}
+
+.box-model .box .caption h5 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 2.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 700px;
+}
+
+
+
+
+.prand .heading h3 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 2.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 700px;
+    color: #fff;
+}
+
+.prand .heading p {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.prand .heading {
+    margin-top: 30px;
+    padding-top: 25px;
+
+
+}
+
+.prand {
+    width: 100%;
+    height: 360px;
+    background-color: #b68834;
+    color: white;
+
+}
+
+.prand .prand-all {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 90px;
+    padding-left: 116px;
+    flex-wrap: wrap;
+}
+
+.prand .prand-all p {
+    font-size: 12px;
+    line-height: 1.8em;
+}
+
+.prand-text-and-numpers .numpers {
+    margin-top: 30px;
+    margin-left: 36%;
+}
+
+.prand-text-and-numpers .numpers span {
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.prand-text-and-numpers .numpers span:hover {
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+    box-shadow: 0px 10px 30px 0px rgba(254, 204, 2, 0.999);
+    transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+}
+
+
+.prand-text-and-numpers .prand-all .prand-1 h6 {
+    display: inline-block;
+}
+
+.prand-text-and-numpers .prand-all .prand-1 img {
+    display: block;
+}
+
+.prand-text-and-numpers .prand-all .prand-2 h6 {
+    display: inline-block;
+}
+
+.prand-text-and-numpers .prand-all .prand-2 img {
+    display: block;
+}
+
+.prand-text-and-numpers .prand-all .prand-1 i {
+    color: rgb(255, 196, 0);
+    padding-left: 6px;
+}
+
+.prand-text-and-numpers .prand-all .prand-2 i {
+    color: rgb(255, 196, 0);
+    padding-left: 6px;
+}
+
+.gallery .heading {
+    margin-top: 22px;
+}
+
+.gallery .heading p {
+    color: gray
+}
+
+.gallery .img-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-gallery img {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.gallery .img-gallery {
+    margin: 30px 80px;
+}
+
+.gallery .img-gallery .img-gallery-1 {
+    margin-right: 20px;
+    margin-left: 86px;
+}
+
+.gallery .img-gallery .img-gallery-2 {
+    margin-left: 20px;
+}
+
+.gallery .img-gallery button {
+    margin: 20px 0px;
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 4px 20px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.gallery .img-gallery h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.gallery .img-gallery p {
+    font-size: 10px;
+    font-weight: 500;
+    color: gray;
+}
+
+.gallery .img-gallery button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 196, 0);
+    color: black;
+    border: solid 1px white;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    background-image: url("footer-bg.jpg.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 20px;
+    color: white;
+}
+
+footer p {
+    font-size: 10px;
+    font-weight: 500;
+    color: gray;
+}
+
+footer input {
+    outline: none;
+    padding: 2px;
+}
+
+footer button {
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) and (max-width:971px) {
+    .licens .video video {
+        width: 450px;
+        height: 270px;
+        margin-left: 60px;
+        margin-top: 15px;
+        padding-right: 50px;
+        border-radius: 20px;
+        border-top-right-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .licens {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .licens {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:670px) {
+    .box-model {
+        display: block;
+        /* grid-row: 4; */
+        grid-template-columns: auto auto auto;
+        margin: 0px 40px 0px 40px;
+
+    }
+
+    .gallery .img-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery .img-gallery .img-gallery-2 {
+        padding-left: 60px;
+        margin-top: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        padding-top: 80px;
+        text-align: center;
+        height: 240px;
+
+    }
+
+    .prand {
+        width: 100%;
+        height: 600px;
+        background-color: #b68834;
+        color: white;
+
+    }
+
+    .prand .prand-all {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-right: 90px;
+        padding-left: 116px;
+        flex-wrap: wrap;
+    }
+
+    .prand .prand-all p {
+        font-size: 10px;
+        line-height: 1.8em;
+    }
+    .prand-text-and-numpers .numpers {
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+}
